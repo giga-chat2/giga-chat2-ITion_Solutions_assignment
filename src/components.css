@@ -230,7 +230,7 @@
   overflow-y: scroll;
 }
 .movieCard {
-  width: 50%;
+  width: 30%;
   height: 70%;
   cursor: pointer;
   border-radius: 50px;
