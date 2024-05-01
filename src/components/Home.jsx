@@ -210,7 +210,7 @@ const Home = () => {
             {isBurgerMenuOpen ? <MenuOpenIcon sx={{ color: "white", width: "50%", height: "50%" }} onClick={() => setIsBurgerMenuOpen(false)} /> : <MenuIcon sx={{ color: "white", width: "50%", height: "50%" }} onClick={() => setIsBurgerMenuOpen(true)} />}
           </div>
           {/* {isBurgerMenuOpen && */}
-            <div className={` ${isBurgerMenuOpen ? 'slideIn filterDrawer ' : isBurgerMenuOpen === false ? 'slideOut filterDrawerClosed' : 'filterDrawerHidden' }`}>
+            <div className={` ${isBurgerMenuOpen ? 'slideIn filterDrawer ' : 'slideOut filterDrawerClosed' }`}>
               <div className="filterHeader"><h2>Apply Filters</h2></div>
               <div className="filterBody">
                 <div className="genre">
