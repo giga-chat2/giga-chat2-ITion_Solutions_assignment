@@ -370,6 +370,7 @@ h3 {
     display: none;
   }
   .filterDrawerClosed{
+     display: none;
     animation: slideOut 1s ease 0.1s backwards;
     animation-fill-mode: forwards;
     position: absolute;
