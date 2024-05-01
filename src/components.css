@@ -269,7 +269,7 @@ h3 {
   padding: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 500px) {
   .right {
     /* border:1px solid white; */
     width: 100%;
