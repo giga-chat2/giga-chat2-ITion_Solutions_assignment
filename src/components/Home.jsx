@@ -127,7 +127,7 @@ const Home = () => {
   })
 
 
-  const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(null);
+  const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false);
 
 
   return (
